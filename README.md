@@ -7,4 +7,9 @@ Feature :
     -Optimize Touch
     -Optimize UI
     -Optimize Thermal
+    -Optimize Charging
+    -Disable Debug
+    -Network Tweaks
+    -Media Tweaks
   
+Only flash with B.65 Firmware  otherwise you may have a chance of entering bootloop !!!
