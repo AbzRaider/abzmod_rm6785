@@ -328,7 +328,10 @@ echo 9 > /sys/kernel/debug/fpsgo/fstb/margin_mode_dbnc_a
 echo 1 > /sys/kernel/debug/fpsgo/fstb/margin_mode_dbnc_b
 
 echo 25 > /sys/kernel/debug/fpsgo/fbt/light_loading_policy
-
+chmod 0444 sys/module/ged/parameters/enable_cpu_boost
+echo 40000000 > /proc/perfmgr/boost_ctrl/eas_ctrl/perfserv_schedplus_up_throttle
+echo -1 > /proc/perfmgr/boost_ctrl/eas_ctrl/perfserv_schedplus_down_throttle
+echo 1 > /proc/perfmgr/boost_ctrl/eas_ctrl/perfserv_ta_boost
 
 
 
