@@ -99,7 +99,6 @@ ro.min.fling_velocity=8000
 
 # GPU Turbo Boost system properties
 debug.composition.type=gpu
-debug.composition.type=c2d
 debug.egl.hw=1
 debug.egl.profiler=1
 debug.performance.tuning=1
@@ -158,9 +157,7 @@ ro.vendor.mtk_audio_alac_support=1
 ro.vendor.mtk_audio_ape_support=1
 ro.vendor.mtk_besloudness_support=1
 ro.vendor.mtk_hifiaudio_support=1
-#scFix
-debug.sf.enablehwcvds=0
-debug.sf.disable_hwc_vdc=1
+
 
 # Brand
 Build.BRAND=MTK
