@@ -150,7 +150,14 @@ ro.vendor.mtk_log_hide_gps=1
 # Media
 ro.vendor.jpeg_decode_sw_opt=1
 
-
+# Audio
+ro.config.alarm_vol_steps=15
+ro.config.ring_notification_vol_steps=15
+ro.config.vc_call_vol_steps=15
+ro.vendor.mtk_audio_alac_support=1
+ro.vendor.mtk_audio_ape_support=1
+ro.vendor.mtk_besloudness_support=1
+ro.vendor.mtk_hifiaudio_support=1
 
 
 
