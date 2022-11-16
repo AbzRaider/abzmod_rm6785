@@ -164,3 +164,13 @@ debug.sf.disable_hwc_vdc=1
 
 # Brand
 Build.BRAND=MTK
+
+
+# Wifi
+mediatek.wlan.ctia=0
+ro.mediatek.wlan.p2p=1
+ro.mediatek.wlan.wsc=1
+wifi.direct.interface=p2p0
+wifi.interface=wlan0
+wifi.tethering.interface=ap0
+
