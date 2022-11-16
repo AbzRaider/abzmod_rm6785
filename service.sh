@@ -323,7 +323,11 @@ echo "Y" > /sys/kernel/debug/mali0/ctx/defaults/infinite_cache
 echo 0 > /sys/kernel/debug/fpsgo/minitop/enable
 echo 0 > /sys/kernel/debug/fpsgo/fbt/enable_switch_down_throttle
 echo 1 > /sys/kernel/debug/fpsgo/fbt/enable_uclamp_boost
-echo "25" > /sys/kernel/debug/fpsgo/fbt/light_loading_policy
+echo 95 > /sys/kernel/debug/fpsgo/fstb/fstb_tune_quantile
+echo 9 > /sys/kernel/debug/fpsgo/fstb/margin_mode_dbnc_a
+echo 1 > /sys/kernel/debug/fpsgo/fstb/margin_mode_dbnc_b
+
+echo 25 > /sys/kernel/debug/fpsgo/fbt/light_loading_policy
 
 
 
