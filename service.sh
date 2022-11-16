@@ -59,8 +59,8 @@ echo '1' > /proc/sys/kernel/launcher_boost_enabled
 echo '0' > /sys/devices/system/cpu/eas/enable
 
 	#EaraThermal
-   echo 0 > /sys/kernel/eara_thermal/fake_throttle
-   echo 0 > /sys/kernel/eara_thermal/enable
+   echo 0 > /sys/kernel/debug/eara_thermal/fake_throttle
+   echo 0 > /sys/kernel/debug/eara_thermal/enable
 
 #EnableFastCharge
 echo "0" >/proc/fastchg_fw_update
