@@ -6,7 +6,6 @@ settings put system min_refresh_rate 60.0
 settings put system peak_refresh_rate  90.0
 SELINUX_STATUS=$(getenforce)
 setenforce 0
-sqlite3
 stop thermald
 
 #set GED to defaults
