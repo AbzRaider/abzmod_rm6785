@@ -54,7 +54,6 @@ ro.media.enc.aud.mp3.enabled=1
 ro.media.enc.vid.mp4.enabled=1
 
 # Media
-debug.stagefright.c2inputsurface=-1
 media.stagefright.thumbnail.prefer_hw_codecs=true
 ro.vendor.mtk_flv_playback_support=1
 vendor.mtk_thumbnail_optimization=true
