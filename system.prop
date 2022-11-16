@@ -141,7 +141,14 @@ ro.vendor.mtk_hdr_video_support=1
 vendor.thermal.manager.data.perf=100
 
 
+# GPS
+ro.oppo.mtk_gps_mpe=1
+ro.vendor.mtk_gps_support=1
+ro.vendor.mtk_log_hide_gps=1
 
+
+# Media
+ro.vendor.jpeg_decode_sw_opt=1
 
 
 
