@@ -53,6 +53,11 @@ ro.media.enc.vid.wmv.enabled=1
 ro.media.enc.aud.mp3.enabled=1
 ro.media.enc.vid.mp4.enabled=1
 
+# Media
+debug.stagefright.c2inputsurface=-1
+media.stagefright.thumbnail.prefer_hw_codecs=true
+ro.vendor.mtk_flv_playback_support=1
+vendor.mtk_thumbnail_optimization=true
 
 
 # Faster streaming videos
@@ -131,6 +136,12 @@ ro.surface_flinger.set_idle_timer_ms=360
 ro.surface_flinger.set_touch_timer_ms=280
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
 ro.vendor.mtk_hdr_video_support=1
+
+
+
+
+
+
 
 
 
