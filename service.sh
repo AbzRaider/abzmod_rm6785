@@ -171,8 +171,8 @@ echo disabled > /sys/class/thermal/thermal_zone24/mode
     
     # change Governor to performance
     echo Change Governor to performance
-    echo performance > /sys/devices/system/cpu/cpufreq/policy0/scaling_governor
-    echo performance > /sys/devices/system/cpu/cpufreq/policy6/scaling_governor
+    echo schedutil > /sys/devices/system/cpu/cpufreq/policy0/scaling_governor
+    echo schedutil > /sys/devices/system/cpu/cpufreq/policy6/scaling_governor
     echo Done
     echo
     
