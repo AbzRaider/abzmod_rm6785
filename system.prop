@@ -158,6 +158,7 @@ ro.vendor.mtk_audio_alac_support=1
 ro.vendor.mtk_audio_ape_support=1
 ro.vendor.mtk_besloudness_support=1
 ro.vendor.mtk_hifiaudio_support=1
-
-
+#scFix
+debug.sf.enablehwcvds=0
+debug.sf.disable_hwc_vdc=1
 
