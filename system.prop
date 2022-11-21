@@ -170,4 +170,5 @@ ro.mediatek.wlan.wsc=1
 wifi.direct.interface=p2p0
 wifi.interface=wlan0
 wifi.tethering.interface=ap0
-
+persist.camera.HAL3.enabled=1
+persist.camera.eis.enabled=1
