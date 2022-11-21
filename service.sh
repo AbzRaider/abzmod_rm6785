@@ -179,7 +179,13 @@ echo disabled > /sys/class/thermal/thermal_zone24/mode
 	## limit minimum CPU frequency
 	echo Lock big CPU to 2050MHz
 	# big cluster
-	echo 1 2050000 >/proc/ppm/policy/hard_userlimit_max_cpu_freq
+	 echo 1 2050000 >/proc/ppm/policy/hard_userlimit_max_cpu_freq
+         #MinFreqReset
+         echo 1 2050000 >/proc/ppm/policy/hard_userlimit_min_cpu_freq
+         echo 1 774000 >/proc/ppm/policy/hard_userlimit_min_cpu_freq
+
+
+
 
     echo Done
     echo
@@ -187,6 +193,9 @@ echo disabled > /sys/class/thermal/thermal_zone24/mode
 	# LITTLE cluster
 	echo Lock LITTLE CPU to 2000MHz
 	echo 0 2000000 >/proc/ppm/policy/hard_userlimit_max_cpu_freq
+         #MinFreqReset
+         echo 0 2000000 >/proc/ppm/policy/hard_userlimit_min_cpu_freq
+         echo 0 500000 >/proc/ppm/policy/hard_userlimit_min_cpu_freq
 	echo Done
 	echo
 
