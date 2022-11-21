@@ -311,7 +311,7 @@ echo 2 > /sys/kernel/debug/fpsgo/fstb/margin_mode
 	echo Last updated : 15:51p.m. 6/7/2021
 
 chmod 0777 /system/bin/thermal_manager
-thermal_manager  /vendor/etc/.tp/thermal.conf
+thermal_manager /vendor/etc/.tp/.thermal_policy_08
 echo chmod 1 > /proc/driver/thermal/clatm_cpu_min_opp
 #MTKTaskTurbo
 echo 10 > /sys/module/task_turbo/parameters/feats
@@ -344,7 +344,7 @@ echo -1 > /proc/perfmgr/boost_ctrl/eas_ctrl/perfserv_schedplus_down_throttle
 echo 40000000 > /proc/perfmgr/boost_ctrl/eas_ctrl/debug_schedplus_up_throttle
 echo -1 > /proc/perfmgr/boost_ctrl/eas_ctrl/debug_schedplus_down_throttle
 echo 1 > /proc/perfmgr/boost_ctrl/eas_ctrl/perfserv_ta_boost
-echo "vendor/etc/.tp/thermal.conf" >/data/vendor/.tp/.settings
+echo "vendor/etc/.tp/.thermal_policy_08" >/data/vendor/.tp/.settings
 
 
 
