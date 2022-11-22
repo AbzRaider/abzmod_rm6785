@@ -173,5 +173,5 @@ wifi.tethering.interface=ap0
 #Camera
 persist.camera.HAL3.enabled=1
 persist.camera.eis.enabled=1
-debug.sf.enable_gl_backpressure=1
+
 
