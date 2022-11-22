@@ -201,3 +201,7 @@ debug.mediatek.game_pq_enable=1
 ro.config.avoid_gfx_accel=true
 ro.apex.updatable=false
 ro.surface_flinger.uclamp.min=130
+persist.log.tag.gralloc4=false
+persist.log.tag.MDP=false 
+persist.log.tag.PQ=false
+persist.log.tag.GPUAUX=false
