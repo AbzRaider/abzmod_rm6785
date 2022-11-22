@@ -184,3 +184,10 @@ ro.zram.periodic_wb_delay_hours=24
 
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
 debug.renderengine.backend=skiaglthreaded 
+debug.sf.early.app.duration=20000000 
+debug.sf.early.sf.duration=27600000 
+debug.sf.earlyGl.app.duration=20000000 
+debug.sf.earlyGl.sf.duration=27600000 
+debug.sf.hwc.min.duration=23000000 
+debug.sf.late.app.duration=20000000 
+debug.sf.late.sf.duration=27600000 
