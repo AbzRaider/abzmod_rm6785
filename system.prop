@@ -200,3 +200,4 @@ debug.mediatek.disp_decompress=1
 debug.mediatek.game_pq_enable=1 
 ro.config.avoid_gfx_accel=true
 ro.apex.updatable=false
+ro.surface_flinger.uclamp.min=130
